@@ -1,0 +1,467 @@
+/*aqui esta sendo feito o reset do meu arquivo*/
+*{
+    margin: 0;
+    padding: 0;
+    font-family: 'Aladin', cursive;
+
+
+}
+body{
+    background-image: url(assets/ofundo2.jpg);
+    background-size: 100vw 100vh;
+}
+
+.mancha{
+margin-top:auto;
+justify-content: left;
+height: 27.5vh;
+
+}
+.mancha2{
+    justify-content: right;
+    margin-top: auto;
+    height: 27.5vh;
+}
+.title{
+ justify-content: center;
+ margin-left: 85px;
+}
+.texto1{
+    text-align: center;
+    justify-content: left;
+    font-size: 6vh;
+    color: #aaa9a9;
+    margin-left: 60px;
+   
+    
+
+}
+.texto2{
+    text-align: center;
+    font-size: 6vh ;
+    color:#741d96;
+    margin-left: 60px;
+    margin-bottom: 15px;
+}
+#Search{
+    position: absolute;
+    height: 30px;
+    width: 150px;
+    margin-top:auto;
+    border: dotted #741d96;
+    right: 110px;
+    background: none;
+
+}
+.shabla{
+    justify-content: center;
+    height: 120vh;
+    margin-left: 240px;
+}
+.not1{
+    font-size: 3vh;
+    text-align: center;
+    margin-left: 48px;
+}
+.ret{
+    background: color 0;
+    border-style: solid;
+    border-color: #741d96;
+    width: 900px;
+    margin:auto;
+    color:rgb(103, 61, 117);
+    display: flex;
+    background: white;
+}
+.virginia{
+   height: 20vh; 
+}
+.felca{
+    height: 20vh;
+}
+.not2{
+    font-size: 3vh;
+    text-align: center;
+    margin-left: 48px;
+    margin-top: 40px;
+}
+.ret2{
+    border-style: solid;
+    border-color: #741d96;
+    width: 900px;
+    margin:auto;
+    color:rgb(103, 61, 117);
+    display: flex;
+    background: white;
+}
+.blaze{
+    height: 21vh;
+}
+.sus{
+    height: 21vh;
+}
+.vermais{
+  text-align: center;
+  margin-top: 30px;
+  margin-left: 48px;
+}
+
+.link_vermais {
+    color: #741d96;
+    font-size: 25px;
+}
+.titulo2_lancamento{
+    justify-content: center;
+    margin-left: 380px;
+    display: flex;
+    align-items: center;
+    margin-top: 40px;
+}
+.container_listinha{
+    display: flex;
+    gap: 200px;
+    text-align: center;
+    margin-top: 50px;
+    justify-content: center;
+    }
+.filmes{
+    border-style: none;
+    background-color: #c7c2c9;
+    color: rgb(111, 92, 124);
+    border-style: dashed;
+    border-width: 4%;
+    border-radius: 5%;
+    font-size: 4vh;
+}
+.series{
+    border-style: none;
+    background-color:#c7c2c9;
+    color: rgb(111, 92, 124);
+    border-style: dashed;
+    border-width: 4%;
+    border-radius: 5%;
+    font-size: 4vh;
+
+}
+.documentario{
+    border-style: none;
+    background-color:#c7c2c9;
+    color: rgb(111, 92, 124);
+    border-style: dashed;
+    border-width: 4%;
+    border-radius: 5%;
+    font-size: 4vh;
+}
+.alta{
+    border-style: none;
+    background-color: #c7c2c9;
+    color: rgb(111, 92, 124);
+    border-style: dashed;
+    border-width: 4%;
+    border-radius: 5%;
+    font-size: 4vh;
+}
+.Shablacine{
+    margin-top: 40px;
+    color: #464646;
+    font-size: 4vh;
+}
+.Populares{
+    background: color 0;
+    border-style:dotted;
+    border-color: #741d96;
+    margin:auto;
+    color:rgb(103, 61, 117);
+    display: flex;
+    background: white;
+}
+.Populares2{
+    border-style:dotted;
+    border-color: #741d96;
+    margin:auto;
+    color:rgb(103, 61, 117);
+    display: flex;
+    background: white;
+    margin-top: 10px;
+}
+.texto_sereia{
+    font-size: 3vh;
+    margin-top: 50px;
+    margin-left:-60px;
+    text-align: left;
+}
+.Sereia{
+    height: 20vh;   
+}
+
+.estrelinhas{
+    height: 10vh;
+    justify-content: center;
+
+}
+.texto_aranha{
+    font-size: 3vh;
+    margin-top: 50px;
+    margin-left:-60px;
+    text-align: left;
+}
+.Aranha{
+    height: 20vh;
+}
+.estrelinhas2{
+    height: 10vh;
+    justify-content: center;
+
+}
+.link2{
+    text-align: center;
+    margin-top: 30px;
+    margin-left: 48px;
+}
+.vermais2{
+    color: #741d96;
+    font-size: 25px; 
+}
+.Shablamusic{
+    margin-top: 45px;
+    font-size: 4vh;
+    text-align: center;
+    color: #464646;
+}
+.Top10{
+    margin-top: 45px;
+    font-size: 4vh;
+    text-align: center;
+    color: #741d96;
+    right: 4px;
+}
+
+.container{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    
+}
+
+.lista{
+    display: flex;
+    margin-top: 30px; 
+    width: 60vw;
+    height: 10vw;
+    flex-wrap: wrap;
+    gap: 3vw;
+    margin-bottom: 10px;
+    margin-left: 270px;
+}
+
+.item-lista{
+    width: 20vw;
+}
+
+.tracos{
+    position: absolute;
+    height: 11vh;
+    margin-top: -60px;
+}
+.tracos1{
+    position: absolute;
+    height: 11vh; 
+    margin-left: 910px;
+    margin-top: -60px;
+}
+.recomendacoes{
+margin-top: 40px;
+display: flex;
+}
+
+.recomendacoes-shabla{
+    height: 10vh;
+    margin-top: 150px;
+}
+.texto_recomendacoes{
+    margin-top: 180px;
+    
+}
+.QRcode{
+    height: 13vh;
+    margin-top: 170px;
+}
+#video{
+   height: 35vh; 
+   width: 25vw;
+   margin-left: 400px;
+   position: absolute;
+   margin-top: -230px;
+}
+
+.artista{
+    text-align: right;
+    right:90px;
+    position: absolute;
+    font-size: 3.5vh;
+    margin-top: -30px;
+}
+.roxo{
+  color: #741d96;  
+}
+.Textinho{
+    font-size: 3.5vh;
+    margin-top: 20px;
+}
+.subtextinho{
+    font-size: 2.3vh;
+    color: #464646;
+    margin-top: 10px;
+}
+
+.QRcode2{
+    height: 15vh;
+}
+.recomendacoes2{
+    display: flex;
+}
+
+#Musica{
+    border: none;
+    margin-top: 25px;
+    background: none;
+}
+.haha{
+    font-size: 3vh;
+}
+.Shabla_pizza{
+    display: flex;
+    justify-content: center;
+    margin-top: 100px;
+    align-items: center;
+}
+
+.Shablafood{
+    font-size: 4vh;
+    color: #464646;
+}
+
+.pizza{
+    margin-top: 5px;
+
+}
+
+.container_bolinho{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 610px;
+    
+}
+
+.borboleta1{
+    height: 15vh;
+    justify-content: center;
+    position: absolute;
+    margin-left: 310px;
+    margin-top: -150px;
+}
+
+.borboleta2{
+    height: 15vh;
+    justify-content: center;
+    margin-left: 1070px;
+    margin-top: 350px;
+    position: absolute;
+}
+.bolinhodechuva{
+    height: 40vh;
+    border-style: double;
+    margin-top: 140px;
+    justify-content: right;
+}
+.receita_semana{
+    font-size: 3.5vh;
+    color:#741d96;
+    position: absolute;
+    margin-left: 470px;
+}
+
+.ingredientes{
+    font-size: 3.5vh;
+    color: #464646;
+    margin-bottom:120px;
+}
+
+.ingredientes1{
+    font-size: 3.5vh;
+    color: #464646;
+    margin-bottom:200px;
+}
+
+.comida{
+   margin-top: -230px;
+   color: #706e6e;
+   font-size: 2.5vh;
+   position: absolute;
+}
+
+.comida_2{
+    margin-top: -200px;
+    color: #706e6e;
+    font-size: 2.5vh;
+}
+
+.manchabaixa2{
+    margin-top:auto;
+    justify-content: left;
+    height:  28vh; 
+}
+
+.manchabaixa{
+    text-align: right;
+    margin-top: auto;
+    height: 29vh;
+    margin-left: 495px;
+}
+.chefinho{
+    position: absolute;
+    text-align: right;
+    height: 10vh;
+    margin-left: 990px;
+    margin-top: 60px;
+    
+}
+
+.title_{
+    justify-content: center;
+    margin-left: 77px;
+    visibility: hidden;
+}
+
+.vermais22{
+    color: #741d96;
+    font-size: 25px; 
+    text-align: center;
+    justify-content: center;
+    margin-top: -130px; 
+    margin-left: 30px;
+    display: flex;
+    
+}
+.manchabaixa3{
+    text-align: right;
+    margin-top: auto;
+    height: 28vh;
+    margin-left: 495px;  
+}
+.Aranha2{
+    height: 20vh;
+    width: 6.5vw;
+}
+
+.ret3{
+    background: color 0;
+    border-style: solid;
+    border-color: #741d96;
+    width: 1000px;
+    margin:auto;
+    color:rgb(103, 61, 117);
+    display: flex;
+    background: white;
+}
